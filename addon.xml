@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.blitzr" name="Blitzr Music" version="1.0.0" provider-name="Blitzr">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="plugin.video.youtube" version="4.4.10"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+        <provides>music</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Blitzr Music</summary>
+    <description lang="en">Stream for FREE all the music love ! 
+Experience an endless world of music. No fees, no ads: only music! Bored of not being allowed to enjoy Radiohead and Led Zeppelin on the same premium/ad-supported music service? Frustrated because you missed your favorite band playing a killer show nearby a few days ago? This is where BlitzrMusic comes in. Free, with no ads, BlitzrMusic is the ultimate portal to music, built by music addicts for music lovers.
+EXPERIENCE AN ENDLESS WORLD OF MUSIC, FROM MAINSTREAM STARS TO UNDERGROUND HEROES!
+NO FEES, NO ADS: ONLY MUSIC!
+
+- Our agnostic metaplayer (Youtube, Bandcamp, Soundcloud) gives you access to a library of over 4 million artists / 40 million tracks.
+- Search and browse by artist, album, song, genre or label
+- Enjoy complete albums, organized into full artists discographies
+
+ENJOY LIVE MUSIC and SUPPORT YOUR MUSIC SCENE!
+
+- Keep in touch with the tour dates of your favorite artists and latest discoveries
+    </description>
+    <disclaimer lang="en"></disclaimer>
+    <language>en</language>
+    <platform>all</platform>
+    <email>contact@blitzr.com</email>
+  </extension>
+</addon>
